@@ -28,7 +28,7 @@ const init = () => {
     state.hunger = 0
     state.sleepiness = 0
     resetBtnEl.classList.add('hidden')
-    gameMessageEl.classList.add('.hidden')
+    gameMessageEl.classList.add('hidden')
     gameOver = false
     timer = setInterval(runGame, 2000)
     render()
